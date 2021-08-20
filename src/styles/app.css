@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', 'Inter', PingFangSC-Regular, 'Microsoft YaHei', sans-serif;
+  @apply bg-black text-white;
+}
+
+h1 {
+  @apply font-bold text-xl;
+}
+
+h2 {
+  @apply font-medium;
+}
+
+h3 {
+  @apply font-normal text-xs;
+}

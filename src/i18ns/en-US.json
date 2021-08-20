@@ -1,0 +1,14 @@
+{
+  "common": {
+    "title": "Raydium Doctor - Please Help Us Help You",
+    "scenes": "If the Raydium app has trouble loading, please screenshot the information and send the images to CMs",
+    "ip": "Your IP",
+    "dns": "Your DNS",
+    "query-network-config": "Query network config",
+    "network": "Network infomation",
+    "a-record": "Connected Raydium Instance IP Address:",
+    "loading-remote-config": "Loading remote config",
+    "rpc-strategy": "RPC connection strategy",
+    "rpc-check": "RPC check"
+  }
+}

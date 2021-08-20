@@ -1,0 +1,15 @@
+{
+  "common": {
+    "title": "Raydium 医生 - 帮您定位异常原因",
+    "guide": "操作指南",
+    "scenes": "当您遇到 Raydium 网页无法打开时，请将此页面截图给客服人员",
+    "ip": "你的 IP",
+    "dns": "你的 DNS",
+    "query-network-config": "查询网络配置",
+    "network": "网络信息",
+    "a-record": "已连接的 Raydium 实例 IP",
+    "loading-remote-config": "加载远程配置",
+    "rpc-strategy": "RPC 服务器选择策略",
+    "rpc-check": "RPC 检查"
+  }
+}
