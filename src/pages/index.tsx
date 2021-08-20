@@ -11,7 +11,7 @@ import { useRemoteConfig } from '@/hooks/useRemoteConfig';
 const Index = () => {
   const { t } = useTranslation();
 
-  const [isDev] = useState(window.location.pathname !== '/');
+  const [isDev] = useState(window.location.pathname === '/dev');
 
   const { remoteConfigStatus, rpcStrategy, rpcEndpoints } = useRemoteConfig(isDev);
   const { ip, dns } = useDnsLeak();
