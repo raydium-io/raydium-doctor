@@ -42,10 +42,11 @@ const RpcSpeedItem = ({ endpoint }: { endpoint: string }) => {
   }, [endpoint]);
 
   const itemStatus = useMemo(() => {
-    const isError = hasError || speed > 2000;
-    const isWarning = !hasError && speed < 2000 && speed > 1000;
-    const isNormal = !hasError && speed < 1000;
-    return isError ? '🔴' : isWarning ? '🟠' : isNormal ? '🟢' : '⚪';
+    const isError = hasError;
+    const isSlow = !hasError && speed > 2000;
+    const isNormal = !hasError && speed < 2000 && speed > 1000;
+    const isFast = !hasError && speed < 1000;
+    return isError ? '🔴' : isSlow ? '🟠' : isNormal ? '🟡' : isFast ? '🟢' : '⚪';
   }, [hasError, speed]);
 
   return (
